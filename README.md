@@ -17,6 +17,11 @@ At its core, this project embodies two important aims:
 _I'd love for you to make the most of this project - it's all about learning, helping, and growing in the open-source world._
 
 ## Setting up the project locally
+1. ** First you need to setup git with vm **
+    ```bash
+    git config --global user.name "your username"
+    git config --global user.email "email id"
+    ```
 
 ### Setting up the Backend
 
@@ -94,7 +99,13 @@ _I'd love for you to make the most of this project - it's all about learning, he
    ```bash
    npm run dev
    ```
+### how to push to repository
 
+    ```bash
+    git add .
+    git commit -m "message"
+    git push origin main
+```
 ## 🌟 Ready to Contribute?
 
 Kindly go through [CONTRIBUTING.md](https://github.com/krishnaacharyaa/wanderlust/blob/main/.github/CONTRIBUTING.md) to understand everything from setup to contributing guidelines.
