@@ -26,6 +26,10 @@ _I'd love for you to make the most of this project - it's all about learning, he
     ```bash
     sudo chmod 666 /var/run/docker.sock
     ```   
+3. **Uploading test documents in docker **
+    ```bash
+    docker exec -it mongo mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
+    ```
 
 ### Setting up the Backend
 
